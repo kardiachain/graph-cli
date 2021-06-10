@@ -22,7 +22,7 @@ const run = async argv => {
 
   // Inject potential plugin directories
   cli = pluginDirs.reduce(
-    (cli, dir) => cli.plugin(path.join(dir, '@graphprotocol', 'indexer-cli', 'dist')),
+    (cli, dir) => cli.plugin(path.join(dir, '@kardiachain', 'indexer-cli', 'dist')),
     cli,
   )
 

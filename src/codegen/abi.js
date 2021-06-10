@@ -27,7 +27,7 @@ module.exports = class AbiCodeGenerator {
           'Address',
           'BigInt',
         ],
-        '@graphprotocol/graph-ts',
+        '@kardiachain/graph-ts',
       ),
     ]
   }

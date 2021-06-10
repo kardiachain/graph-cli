@@ -29,7 +29,7 @@ module.exports = class SchemaCodeGenerator {
           'BigInt',
           'BigDecimal',
         ],
-        '@graphprotocol/graph-ts',
+        '@kardiachain/graph-ts',
       ),
     ]
   }

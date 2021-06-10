@@ -148,7 +148,7 @@ type ExampleEvent1 @entity {
 
   test('Mapping (default)', () => {
     expect(generateMapping({ abi: TEST_ABI, contractName: 'Contract' })).toEqual(`\
-import { BigInt } from "@graphprotocol/graph-ts"
+import { BigInt } from "@kardiachain/graph-ts"
 import {
   Contract,
   ExampleEvent,

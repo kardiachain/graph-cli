@@ -6,7 +6,7 @@ const getGraphTsVersion = sourceDir => {
   let pkgJsonFile = path.join(
     sourceDir,
     'node_modules',
-    '@graphprotocol',
+    '@kardiachain',
     'graph-ts',
     'package.json',
   )
